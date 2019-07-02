@@ -1,0 +1,53 @@
+.title{
+    color: #fff;
+    padding: 1%;
+    font-weight: normal;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #17a2b8;
+    margin-bottom: 0;
+}
+
+.table td, .table th {
+    font-weight: normal;
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.table .thead-dark th {
+    color: black;
+    font-weight: normal;
+    background-color: #fff;
+    border-color:#dee2e6;
+    width: 100%;
+}
+
+.time{
+    float: right;
+    width: 130%;
+}
+
+.btn.btn-info{
+    margin-right: 3%;
+    float: right;
+}
+
+#item5{
+    position: relative;
+    left: -9%;
+}
+
+@media only screen and (min-width: 500px) {
+    #item5{
+        position: relative;
+        left: -6%;
+    }
+  }
+
+  @media only screen and (min-width: 700px) {
+    #item5{
+        position: relative;
+        left: -4%;
+    }
+  }
